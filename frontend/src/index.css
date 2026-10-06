@@ -1,0 +1,21 @@
+:root { font-family: system-ui, sans-serif; color: #1f2937; background: #f3f4f6; }
+body { margin: 0; }
+main { max-width: 640px; margin: 2rem auto; padding: 0 1rem; }
+h1 { text-align: center; }
+ul { list-style: none; padding: 0; display: grid; gap: .75rem; }
+.card { background: #fff; border-radius: 8px; padding: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+.form { display: grid; gap: .5rem; }
+input, textarea { padding: .5rem; border: 1px solid #d1d5db; border-radius: 6px; font: inherit; }
+input[aria-invalid='true'] { border-color: #dc2626; }
+button { padding: .5rem .9rem; border: 0; border-radius: 6px; background: #2563eb; color: #fff; cursor: pointer; font: inherit; }
+button:disabled { opacity: .6; cursor: wait; }
+button.danger { background: #dc2626; }
+.filters { display: flex; gap: .5rem; margin: 1rem 0; }
+.filters button { background: #e5e7eb; color: #1f2937; }
+.filters button.active { background: #1f2937; color: #fff; }
+.item { display: flex; justify-content: space-between; gap: 1rem; align-items: center; }
+.item p { margin: .25rem 0; }
+.item.done strong { text-decoration: line-through; color: #6b7280; }
+.actions { display: flex; gap: .5rem; }
+.error { color: #dc2626; }
+.empty { text-align: center; color: #6b7280; }
