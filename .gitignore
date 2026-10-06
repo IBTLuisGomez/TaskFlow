@@ -16,3 +16,8 @@ backend/.mvn/
 # Docker/Locales
 .env
 docker-compose.override.yml
+
+backend/target
+/frontend/node_modules
+/frontend/dist/
+.idea/
